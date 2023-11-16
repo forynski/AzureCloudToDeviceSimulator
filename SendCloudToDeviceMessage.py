@@ -10,11 +10,8 @@ MSG_TXT = "{\"service client sent a message\": %.2f}"
 
 # Replace the {iot hub connection string} and {device id} placeholder values
 # with the IoT hub connection string and device ID
-# CONNECTION_STRING = "{IoTHubConnectionString}"
-# DEVICE_ID = "{deviceId}"
-
-CONNECTION_STRING = "HostName=IoTHubUoD.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=8JZHf09T/SKVplrITc2UBFIQmTxjZTwRUAIoTKYqGuQ="
-DEVICE_ID = "iPhone"
+CONNECTION_STRING = "{IoTHubConnectionString}"
+DEVICE_ID = "{deviceId}"
 
 
 def iothub_messaging_sample_run():
