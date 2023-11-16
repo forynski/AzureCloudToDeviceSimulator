@@ -8,8 +8,7 @@ from azure.iot.device import IoTHubDeviceClient
 
 RECEIVED_MESSAGES = 0
 # Replace the {deviceConnectionString} placeholder value with the connection string for the registered device
-# CONNECTION_STRING = "{deviceConnectionString}"
-CONNECTION_STRING = "HostName=IoTHubUoD.azure-devices.net;DeviceId=iPhone;SharedAccessKey=ud4o53zYfWIcEg4d8q0PaCcynGVr53YoUAIoTGdqH0o="
+CONNECTION_STRING = "{deviceConnectionString}"
 
 
 def message_handler(message):
