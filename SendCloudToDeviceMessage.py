@@ -8,7 +8,8 @@ MESSAGE_COUNT = 2
 AVG_WIND_SPEED = 10.0
 MSG_TXT = "{\"service client sent a message\": %.2f}"
 
-# Replace the {iot hub connection string} and {device id} placeholder values with the IoT hub connection string and device ID
+# Replace the {iot hub connection string} and {device id} placeholder values
+# with the IoT hub connection string and device ID
 # CONNECTION_STRING = "{IoTHubConnectionString}"
 # DEVICE_ID = "{deviceId}"
 
